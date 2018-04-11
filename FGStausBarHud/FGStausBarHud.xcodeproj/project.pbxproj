@@ -15,8 +15,8 @@
 		F32123732077655A006F3C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32123722077655A006F3C78 /* main.m */; };
 		F321237D2077655B006F3C78 /* FGStausBarHudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F321237C2077655B006F3C78 /* FGStausBarHudTests.m */; };
 		F32123882077655B006F3C78 /* FGStausBarHudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F32123872077655B006F3C78 /* FGStausBarHudUITests.m */; };
-		F321239B20776E0A006F3C78 /* FGStatusBarHud.m in Sources */ = {isa = PBXBuildFile; fileRef = F321239A20776E0A006F3C78 /* FGStatusBarHud.m */; };
-		F321239D2078FDAC006F3C78 /* FGStatusBarHud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F321239C2078FDAC006F3C78 /* FGStatusBarHud.bundle */; };
+		F32123A8207E3DC8006F3C78 /* FGStatusBarHud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F32123A6207E3DC8006F3C78 /* FGStatusBarHud.bundle */; };
+		F32123A9207E3DC8006F3C78 /* FGStatusBarHud.m in Sources */ = {isa = PBXBuildFile; fileRef = F32123A7207E3DC8006F3C78 /* FGStatusBarHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		F32123832077655B006F3C78 /* FGStausBarHudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGStausBarHudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32123872077655B006F3C78 /* FGStausBarHudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGStausBarHudUITests.m; sourceTree = "<group>"; };
 		F32123892077655B006F3C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F321239920776E0A006F3C78 /* FGStatusBarHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStatusBarHud.h; sourceTree = "<group>"; };
-		F321239A20776E0A006F3C78 /* FGStatusBarHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStatusBarHud.m; sourceTree = "<group>"; };
-		F321239C2078FDAC006F3C78 /* FGStatusBarHud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FGStatusBarHud.bundle; sourceTree = "<group>"; };
+		F32123A5207E3DC8006F3C78 /* FGStatusBarHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStatusBarHud.h; sourceTree = "<group>"; };
+		F32123A6207E3DC8006F3C78 /* FGStatusBarHud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FGStatusBarHud.bundle; sourceTree = "<group>"; };
+		F32123A7207E3DC8006F3C78 /* FGStatusBarHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStatusBarHud.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		F32123622077655A006F3C78 /* FGStausBarHud */ = {
 			isa = PBXGroup;
 			children = (
-				F321239820776E0A006F3C78 /* FGStatusBarHud */,
+				F32123A4207E3DC8006F3C78 /* FGStatusBarHud */,
 				F32123632077655A006F3C78 /* AppDelegate.h */,
 				F32123642077655A006F3C78 /* AppDelegate.m */,
 				F32123662077655A006F3C78 /* ViewController.h */,
@@ -138,14 +138,15 @@
 			path = FGStausBarHudUITests;
 			sourceTree = "<group>";
 		};
-		F321239820776E0A006F3C78 /* FGStatusBarHud */ = {
+		F32123A4207E3DC8006F3C78 /* FGStatusBarHud */ = {
 			isa = PBXGroup;
 			children = (
-				F321239C2078FDAC006F3C78 /* FGStatusBarHud.bundle */,
-				F321239920776E0A006F3C78 /* FGStatusBarHud.h */,
-				F321239A20776E0A006F3C78 /* FGStatusBarHud.m */,
+				F32123A5207E3DC8006F3C78 /* FGStatusBarHud.h */,
+				F32123A6207E3DC8006F3C78 /* FGStatusBarHud.bundle */,
+				F32123A7207E3DC8006F3C78 /* FGStatusBarHud.m */,
 			);
-			path = FGStatusBarHud;
+			name = FGStatusBarHud;
+			path = ../../FGStatusBarHud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F321239D2078FDAC006F3C78 /* FGStatusBarHud.bundle in Resources */,
+				F32123A8207E3DC8006F3C78 /* FGStatusBarHud.bundle in Resources */,
 				F32123702077655A006F3C78 /* LaunchScreen.storyboard in Resources */,
 				F321236D2077655A006F3C78 /* Assets.xcassets in Resources */,
 				F321236B2077655A006F3C78 /* Main.storyboard in Resources */,
@@ -284,7 +285,7 @@
 			files = (
 				F32123682077655A006F3C78 /* ViewController.m in Sources */,
 				F32123732077655A006F3C78 /* main.m in Sources */,
-				F321239B20776E0A006F3C78 /* FGStatusBarHud.m in Sources */,
+				F32123A9207E3DC8006F3C78 /* FGStatusBarHud.m in Sources */,
 				F32123652077655A006F3C78 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
